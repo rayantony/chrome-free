@@ -1,0 +1,17 @@
+
+{
+"update_url":"http://clients2.google.com/service/update2/crx",
+  "manifest_version": 2,
+  "name": "Ignore X-Frame headers",
+  "description": "Kills the XFrame Parameters allowing more user control over transactions across domains",
+  "version": "3.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
+ 
