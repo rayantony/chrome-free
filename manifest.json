@@ -6,7 +6,7 @@
   "description": "Kills the XFrame Parameters allowing more user control over transactions across domains",
   "version": "3.0",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["3.0/js/background.js"]
   },
   "permissions": [
     "webRequest",
